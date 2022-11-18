@@ -4,5 +4,5 @@ Rails.application.routes.draw do
     resources :bookmarks, only: %i[index show create new destroy]
   end
   # Defines the root path route ("/")
-  # root "articles#index"
+  root "movies#index"
 end
