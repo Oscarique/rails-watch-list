@@ -13,6 +13,7 @@
   <body>
   <% unless request.path == "/" %>
     <%= render "shared/navbar" %>
+    <%= render "shared/flashes" %>
   <% end %>
     <%= yield %>
   </body>
